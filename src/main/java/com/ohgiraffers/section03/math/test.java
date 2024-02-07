@@ -2,29 +2,32 @@ package com.ohgiraffers.section03.math;
 
 public class test {
 
+//    public static void main(String[] args){
+//        int num = 12345;
+//        int result = method(num);
+//        System.out.println(result);
+//    }
+//    public static void method(int bet){
+//
+//        return bet * 3;
+//
+//    }
+
     public static void main(String[] args) {
+        int num = 12345;
+        test app1 = new test();
 
-        int height = 5;
-        int width = 10;
-        System.out.println(test.methodA(height,width));
-
-        test test1 = new test();
-        test1.methodB(height,width);
-        
-
-
+        app1.method(num);
     }
 
-    public static int methodA(int first ,int second ){
+    public void method(int bet) {
 
-        return (first + second) * 2 ;
-
+        int result = bet * 3;
+        System.out.println("메소드 실행 결과: " + result);
     }
 
-    public void methodB(int first, int second){
 
-        System.out.println( (first + second) * 2 );
 
-    }
+
 
 }
