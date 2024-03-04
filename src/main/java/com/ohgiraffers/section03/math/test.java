@@ -14,18 +14,13 @@ public class test {
 //    }
 
     public static void main(String[] args) {
-        int num = 12345;
-        test app1 = new test();
+        method();
 
-        app1.method(num);
     }
 
-    public void method(int bet) {
-
-        int result = bet * 3;
-        System.out.println("메소드 실행 결과: " + result);
+    public static void method(){
+        System.out.println(1);
     }
-
 
 
 
