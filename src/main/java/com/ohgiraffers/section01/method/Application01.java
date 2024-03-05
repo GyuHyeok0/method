@@ -22,8 +22,9 @@ public class Application01 {
         app1.methodK();
 
         System.out.println("main() 메소드 시작됨...");
+        System.out.println("main() 메소드 시작됨...");
 
-        System.out.println("====");
+
 
     }
 
