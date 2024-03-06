@@ -10,6 +10,7 @@ public class Application01 {
          */
 
         System.out.println("main() 메소드 시작됨...");
+        System.out.println("main() 메소드 시작됨...");
 
         /* 목차.1. 작성한 메소드를 호출하는 부분을 작성한다.
         *   필기
@@ -21,7 +22,6 @@ public class Application01 {
         Application01 app1 = new Application01();
         app1.methodK();
 
-        System.out.println("main() 메소드 시작됨...");
         System.out.println("main() 메소드 시작됨...");
 
 
